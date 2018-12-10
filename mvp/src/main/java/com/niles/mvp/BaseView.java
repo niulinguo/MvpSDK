@@ -10,4 +10,8 @@ public interface BaseView {
     void log(String tag, String msg);
 
     void toast(String msg);
+
+    void showLoadingDialog();
+
+    void hideLoadingDialog();
 }

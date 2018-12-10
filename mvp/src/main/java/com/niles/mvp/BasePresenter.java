@@ -10,4 +10,6 @@ public interface BasePresenter<V extends BaseView> {
     V getView();
 
     void start();
+
+    void loadData();
 }
